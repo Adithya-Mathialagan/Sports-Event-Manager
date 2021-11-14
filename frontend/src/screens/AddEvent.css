@@ -1,0 +1,157 @@
+.container3 h1{
+  text-align: center;
+}
+
+table {
+    border: 3px solid black;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  table, th, td {
+    border: 2px solid black;
+    padding: 8px;
+  }
+  tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+  
+  tr {
+    border-bottom: 1px solid #ddd;
+  }
+  tr:hover {background-color: #9289e6;}
+
+
+  td{
+    text-align: center;
+  }
+  th {
+    height: 10px;
+    background-color: #04AA6D
+  }
+  
+  .card{
+    float:left;
+    width: 33.3%;
+    padding: 10px;
+    height: auto;
+      
+  }
+  .card img {
+  border-radius: 10px;
+  padding: 5px;
+  max-width: 100%;
+  position: relative;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.table button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 5px;
+    border-radius: 2px;
+}
+
+.table button h5{
+    position: relative;
+}
+
+
+.container3 button{
+    width:90%;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 8px;
+    border-radius: 2px;
+}
+
+
+
+.container3 button:hover{
+    background:#1079e2;
+    color:rgb(0, 0, 0);
+    outline:0;
+    transition: background-color 1s ease-out;
+}
+.row h1{
+    text-align: relative;
+}
+
+
+.table caption{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    line-height: 2;
+}
+
+.finalBtn a:Link{
+  align-items: center;
+  width:40%;
+  background-color: #0ed689; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.finalBtn{
+  text-align: center;
+}
+
+.finalBtn a:Link:hover{
+  background:red;
+}
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  
+
+
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .container2 {
+      width: 100%;
+      display: block;
+    }
+  }
+
+
+
+
+
+
+
+
+
+

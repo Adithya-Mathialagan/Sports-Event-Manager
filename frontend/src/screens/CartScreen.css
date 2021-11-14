@@ -1,0 +1,17 @@
+.cartheader{
+    text-align: center
+}
+
+.container5{
+  text-align: center;
+}
+.container5 img {
+        border-radius: 40px;
+        padding: 20px;
+        width: 65%;
+        position: relative;
+        height: auto;
+        background-repeat: no-repeat;
+      background-size: contain;
+      
+}
